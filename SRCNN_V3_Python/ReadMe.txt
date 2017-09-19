@@ -1,0 +1,3 @@
+这段代码是采用opencv库的bicubic插值进行超分辨率的。其中下采样采用区域插值，上采样采用bicubic插值。这种方法相对于两次都是bicubic插值效果好。
+文档中的DataProcess.py是处理训练和测试数据
+predict_image.py是对图片进行超分辨率重建。
